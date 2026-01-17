@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "feature-01",
+      "name": "feature_01",
+      "category": "core",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "feature-02",
+      "name": "feature_02",
+      "category": "growth",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "feature-03",
+      "name": "feature_03",
+      "category": "infra",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "feature-04",
+      "name": "feature_04",
+      "category": "quality",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "feature-05",
+      "name": "feature_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "feature-06",
+      "name": "feature_06",
+      "category": "growth",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "feature-07",
+      "name": "feature_07",
+      "category": "infra",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "feature-08",
+      "name": "feature_08",
+      "category": "quality",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "feature-09",
+      "name": "feature_09",
+      "category": "core",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "feature-10",
+      "name": "feature_10",
+      "category": "growth",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "feature-11",
+      "name": "feature_11",
+      "category": "infra",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "feature-12",
+      "name": "feature_12",
+      "category": "quality",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "feature-12",
+    "issue_count": 1
+  }
+}

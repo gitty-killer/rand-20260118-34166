@@ -1,0 +1,13 @@
+{
+  "project_title": "Feature Prioritizer",
+  "goal": "Score features by impact and effort to decide sequencing.",
+  "entity_name": "feature",
+  "amount_label": "effort_points",
+  "score_label": "impact_score",
+  "categories": [
+    "core",
+    "growth",
+    "infra",
+    "quality"
+  ]
+}
